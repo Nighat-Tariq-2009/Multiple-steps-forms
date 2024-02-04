@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Steps Forms</title>
+</head>
+
+<body>
+  <center>
+    <table width="900px" cellspacing="0" cellpadding="15">
+      <tr>
+        <th style=" background-color: rgb(105, 187, 214);"><a href="">Step-1:Account</a></th>
+        <th style=" background-color:lightgrey;"><a href="./step-2.html">Step-2:Personal Details</a></th>
+        <th style="background-color: lightgrey;"><a href="./step-3.html"> Step-3:Your Review</a></th>
+      </tr>
+    </table><br>
+
+    <!-- form start  -->
+    <form style="width: 900px;">
+
+
+      <fieldset>
+        <legend>Account</legend>
+        <table cellspacing="15" align="left" height="450">
+          <!-- input field for email  -->
+          <tr>
+            <td><label for="email"><strong>Email Address:</strong></label><br>
+              <input name="email" id="email" type="email" placeholder="Enter Email" size="90">
+            </td>
+          </tr>
+          <!-- input field for password  -->
+          <tr>
+            <td><label for="password"><strong>Password:</strong></label><br>
+              <input name="password" id="password" type="password" placeholder="Enter Password" size="90">
+            </td>
+          </tr>
+          <!-- input field for confirm password  -->
+          <tr>
+            <td><label for="c.password"><strong>Confirm Password</strong>:</label><br>
+              <input name="confirm password" id="c.password" type="confirm password" size="90"
+                placeholder="Confirm Password">
+            </td>
+          </tr>
+          <!-- insert backward arrow image  -->
+          <tr>
+            <td> <a href="../index.html"><img src="../image/back.png" alt="backward arrow image" width="150"></a>
+
+              <!-- insert next button image  -->
+
+              <a href="./step-2.html"><img src="../image/next.png" alt="next button image" width="150"></a>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </center>
+
+
+</body>
+
+</html>

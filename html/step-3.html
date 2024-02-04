@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Steps Forms</title>
+</head>
+
+<body>
+  <center>
+    <table width="900px" cellspacing="0" cellpadding="15">
+      <tr>
+        <th style="background-color: rgb(96, 211, 96);"><a href="./step-1.html"> Step-1:Account</a></th>
+        <th style=" background-color:  rgb(96, 211, 96);"><a href="./step-2.html">Step-2:Personal Details</a></th>
+        <th style="background-color:  rgb(105, 187, 214);"><a href=""> Step-3:Your Review</a></th>
+      </tr>
+    </table><br>
+    <!-- Personal Details form start  -->
+    <form style="width: 900px;">
+      <fieldset cellpadding="50">
+        <legend>Your Review</legend>
+        <table cellpadding="20" cellspacing="0" align="left">
+          <!-- dropdown list box  -->
+          <tr>
+            <td>
+              <label for="aboutme"><strong>How did you hear about us?</strong></label>
+              <select name="aboutme" id="aboutme" required>
+                <option>Select your option</option>
+                <option value="blogs">blogs</option>
+                <option value="videos">videos</option>
+                <option value="social media">social media</option>
+                <option value="relatives">relatives</option>
+                <option value="facebook">facebook</option>
+                <option value="social media">social media</option>
+                <option value="relatives">relatives</option>
+                <option value="other">other</option>
+              </select>
+            </td>
+          </tr>
+          <!-- input type radio for choose any one option -->
+          <tr>
+            <td><strong>Would you visit again?</strong><br>
+              <input type="radio" name="visit" value="yes" id="y"><label for="y"><strong>Yes</strong></label>
+              <input type="radio" name="visit" value="no" id="n"><label for="n"><strong>No</strong></label>
+              <input type="radio" name="visit" value="maybe" id="m"><label for="m"><strong>Maybe</strong></label>
+            </td>
+            </td>
+            </td>
+          </tr>
+          <!-- textarea for comment  -->
+          <tr>
+            <td>
+              <label for="Comments"><strong>Comments:</strong></label><br>
+              <textarea cols="50" rows="5" id="Comments" placeholder="Enter your Comments here...."></textarea>
+            </td>
+          </tr>
+          <!-- input type file  -->
+          <tr>
+            <td>
+              <label for="f"><strong>Documents:</strong></label><br>
+              <input name="file" id="f" type="file">
+            </td>
+          </tr>
+          <!-- input type checkbox  -->
+          <tr>
+            <td><input type="checkbox" name="updates" value="updates" id="updates" checked>
+              <label for="updates">Sign me up for email updates</label>
+            </td>
+          </tr>
+          <!-- insert backward arrow image  -->
+          <tr>
+            <td> <a href="./step-2.html"><img src="../image/back.png" alt="backward arrow image" width="150"></a>
+
+              <!-- insert submit button image  -->
+              <input type=image src="../image/submit.png" alt="submit button image" width="150">
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </center>
+</body>
+
+</html>

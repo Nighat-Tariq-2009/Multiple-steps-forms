@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Steps Forms</title>
+</head>
+
+<body>
+  <center>
+
+    <table width="900px" cellspacing="0" cellpadding="15">
+      <tr>
+        <th style="background-color: rgb(96, 211, 96);"><a href="./step-1.html">Step-1:Account</a></th>
+        <th style=" background-color: rgb(105, 187, 214);"><a href="">Step-2:Personal Details</a></th>
+        <th style="background-color: lightgrey;"> <a href="./step-3.html">Step-3:Your Review</a></th>
+      </tr>
+    </table><br>
+
+
+    <!-- Personal Details form start  -->
+    <form style="width: 900px;">
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table cellpadding="10" cellspacing="0" align="left" height="450">
+          <!-- input field for First Name  -->
+          <tr>
+            <td><label for="f-name"><strong>First Name:</strong></label><br>
+              <input name="fullname" id="f-name" type="text" placeholder="Enter First Name" size="70">
+            </td>
+          </tr>
+          <!-- input field for Last Name  -->
+          <tr>
+            <td><label for="l-name"><strong>Last Name:</strong></label><br>
+              <input name="lastname" id="l-name" type="text" placeholder="Enter Last Name" size="70">
+            </td>
+          </tr>
+          <!-- input field for CNIC  -->
+          <tr>
+            <td><label for="CNIC"><strong>CNIC</strong>:</label><br>
+              <input type="text" maxlength="1" name="CNIC" id="CNIC" style="width:25px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;"> -
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;"> -
+              <input type="text" maxlength="1" name="CNIC" style="width:27px; height:30px;">
+            </td>
+          </tr>
+          <!-- input field for social link  -->
+          <tr>
+            <td><label for="link"><strong>Social Link:</strong></label><br>
+              <input name="last name" id="link" type="text" placeholder="Enter Facebook/Linkedin profile link"
+                size="70">
+            </td>
+          </tr>
+          <!-- insert backward arrow image  -->
+          <tr>
+            <td> <a href="./step-1.html"><img src="../image/back.png" alt="backward arrow image" width="150"></a>
+
+              <!-- insert next button image  -->
+              <a href="./step-3.html"><img src="../image/next.png" alt="next button image" width="150"></a>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+
+  </center>
+</body>
+
+</html>
